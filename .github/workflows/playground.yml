@@ -9,6 +9,14 @@ jobs:
 
     steps: 
       - name: Executa echo
-        run: echo Hello World!
-      - name: Executa pwd
-        run: pwd
+        run: echo blah > tmp.txt
+      - name: Executa ls
+        run: ls
+        
+  windows_jobs:
+
+    runs-on: windows-latest
+
+    steps:
+      - name: Lista dir
+        run: dir
