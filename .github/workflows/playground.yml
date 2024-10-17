@@ -13,7 +13,7 @@ jobs:
       - name: Executa ls
         run: ls
 
-  windows_jobs:
+  windows_job:
 
     runs-on: windows-latest
 
